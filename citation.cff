@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Karmakar"
+  given-names: "Pratik"
+- family-names: "Basu"
+  given-names: "Debabrota"
+title: "Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data"
+version: 1.0.1
+doi: 10.48550/ARXIV.2302.08466
+date-released: 16-02-2023
+url: "https://github.com/Debabrota-Basu/marich"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Karmakar"
+    given-names: "Pratik"
+  - family-names: "Basu"
+    given-names: "Debabrota"
+  doi: "10.48550/ARXIV.2302.08466"
+  publisher: "arXiv"
+  month: 2
+  start: 1 # First page number
+  end: 26 # Last page number
+  title: "Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data"
+  year: 2023
