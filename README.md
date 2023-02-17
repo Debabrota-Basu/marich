@@ -5,4 +5,6 @@ ag_unlabeled.csv contains ag_news data but the labels are changed, i.e. the data
 
 PS: User may need to change paths to save and load models from in the notebooks according to their structures.
 
-The extended paper is available at: https://debabrota-basu.github.io/pdfs/marich.pdf
+The extended paper is available at: https://arxiv.org/abs/2302.08466
+
+
