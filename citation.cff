@@ -18,7 +18,7 @@ preferred-citation:
   - family-names: "Basu"
     given-names: "Debabrota"
   doi: "10.48550/ARXIV.2302.08466"
-  publisher: "arXiv"
+  journal: "arXiv"
   month: 2
   start: 1 # First page number
   end: 26 # Last page number
