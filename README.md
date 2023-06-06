@@ -16,7 +16,7 @@ The accuracies of competing active learning methods are shown along with Marich 
 </p>
     
  
-<img src="figures/LR_emnist.png" width="495" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="495" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="495" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="495" title="BERT extracted using AGNEWS"/> 
+<img src="figures/LR_emnist.png" width="395" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="395" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="495" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="495" title="BERT extracted using AGNEWS"/> 
 <p align="center">
     <img src="figures/Res_CNN.png" width="495" title="ResNet extracted using ImageNet"/>
 </p>
