@@ -16,7 +16,7 @@ The accuracies of competing active learning methods are shown along with Marich 
 </p>
     
  
-<img src="figures/LR_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/Res_CNN.png" width="195" title="ResNet extracted using ImageNet"/>
+<img src="figures/LR_emnist.png" width="400" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="400" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="400" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="400" title="BERT extracted using AGNEWS"/> <img src="figures/Res_CNN.png" width="400" title="ResNet extracted using ImageNet"/>
 
 The accuracy curves shown above are respectively for:
 1. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with EMNIST queries.
@@ -27,7 +27,7 @@ The accuracy curves shown above are respectively for:
 
 Next we present the kl divergence between the outputs of the extracted models and the target models to compare the distributional equivalence of the models extracted by different algorithms. This is done on a separate subset of the training domain data.
 
-<img src="figures/kl_lr_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/kl_bert.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="195" title="ResNet extracted using ImageNet"/>
+<img src="figures/kl_lr_emnist.png" width="400" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="400" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="400" title="CNN extracted using EMNIST"/>  <img src="figures/kl_bert.png" width="400" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="400" title="ResNet extracted using ImageNet"/>
 
 The order of the extraction set ups are same as mentioned for the accuracies.
 The table below shows a portion of the results obtained during our experiments:
