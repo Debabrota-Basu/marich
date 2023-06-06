@@ -16,11 +16,7 @@ The accuracies of competing active learning methods are shown along with Marich 
 </p>
     
  
-<img src="figures/LR_emnist.png" width="195" title="LR extracted using EMNIST"/>
-<img src="figures/LR_cifar.png" width="195" title="LR extracted using CIFAR10"/>
-<img src="figures/CNN_emnist.png" width="195" title="CNN extracted using EMNIST"/> 
-<img src="figures/bert_acc.png" width="195" title="BERT extracted using AGNEWS"/>
-<img src="figures/Res_CNN.png" width="195" title="BERT extracted using AGNEWS"/>
+<img src="figures/LR_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/Res_CNN.png" width="195" title="BERT extracted using AGNEWS"/>
 
 The accuracy curves shown above are respectively for:
 1. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with EMNIST queries.
