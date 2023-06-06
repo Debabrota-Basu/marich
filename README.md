@@ -10,7 +10,15 @@ The attack framework is as given below:
 ![My Image](figures/attack_framework.png)
 
 The accuracies of competing active learning methods are shown along with Marich to present a comparison:
-<img src="figures/LR_emnist.png" width="425" title="Image description"/> <img src="figures/LR_cifar.png" width="425"/> 
+<img src="figures/LR_emnist.png" width="425" title="Image description"/> <img src="figures/LR_cifar.png" width="425"/>
+
+```{figure} figures/LR_emnist.png
+---
+height: 150px
+name: directive-fig
+---
+Here is my figure caption!
+```
 
 
 There are 4 folders:
