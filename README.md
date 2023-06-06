@@ -27,7 +27,7 @@ The accuracy curves shown above are respectively for:
 
 Next we present the kl divergence between the outputs of the extracted models and the target models to compare the distributional equivalence of the models extracted by different algorithms. This is done on a separate subset of the training domain data.
 
-<img src="figures/kl_lr_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="195" title="ResNet extracted using ImageNet"/>
+<img src="figures/kl_lr_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/kl_bert.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="195" title="ResNet extracted using ImageNet"/>
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
