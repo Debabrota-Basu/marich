@@ -16,9 +16,16 @@ The accuracies of competing active learning methods are shown along with Marich 
 </p>
     
 <img src="figures/LR_emnist.png" width="245" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="245" title="LR extracted using CIFAR10"/>
-<img src="figures/CNN_emnist.png" width="245" title="CNN extracted using EMNIST"/> <img src="figures/bert_acc.png" width="245" title="BERT extracted using AGNEWS"/>
+<img src="figures/CNN_emnist.png" width="245" title="CNN extracted using EMNIST"/> 
+<img src="figures/bert_acc.png" width="245" title="BERT extracted using AGNEWS"/>
+<img src="figures/Res_CNN.png" width="245" title="BERT extracted using AGNEWS"/>
 
-The accuracy 
+The accuracy curves shown above are respectively for:
+1. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with EMNIST queries.
+2. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with CIFAR10 queries.
+3. CNN trained on MNIST dataset extracted using another CNN with EMNIST queries.
+4. ResNet trained on CIFAR10 dataset extracted using a CNN with ImageNet queries.
+5. BERT trained on BBC News dataset extracted using another BERT with AG News queries.
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
