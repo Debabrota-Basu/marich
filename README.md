@@ -10,6 +10,7 @@ The attack framework is as given below:
 ![My Image](figures/attack_framework.png)
 
 The accuracies of competing active learning methods are shown along with Marich to present a comparison:
+
 <img src="figures/LR_emnist.png" width="210" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="210" title="LR extracted using CIFAR10"/>
 <img src="figures/LR_emnist.png" width="210" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="210" title="LR extracted using CIFAR10"/>
 
