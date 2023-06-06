@@ -1,5 +1,7 @@
 README
 
+*Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data*
+
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
 lr_cnn_res_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for experiments on Logistic Regression, CNN and ResNet
