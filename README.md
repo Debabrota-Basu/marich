@@ -8,40 +8,42 @@ To achieve these two Marich uses an active learning algorithm to query and extra
 
 The attack framework is as given below:
 ![My Image](figures/attack_framework.png)
-## Results
+
+## Summary of Results
+
+### Accuracy of Extracted Model
 The accuracies of competing active learning methods are shown along with Marich to present a comparison:
 
 <p align="center">
 <img src="figures/legend_acc.png" width = 400>
 </p>
     
- 
-<img src="figures/LR_emnist.png" width="395" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="395" title="LR extracted using CIFAR10"/> <img src="figures/CNN_emnist.png" width="395" title="CNN extracted using EMNIST"/>  <img src="figures/bert_acc.png" width="395" title="BERT extracted using AGNEWS"/> 
-<p align="center">
-    <img src="figures/Res_CNN.png" width="395" title="ResNet extracted using ImageNet"/>
+ <p align="center">
+<img src="figures/LR_emnist.png" width="395" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="395" title="LR extracted using CIFAR10"/> <img src="figures/bert_acc.png" width="395" title="BERT extracted using AGNEWS"/> <img src="figures/Res_CNN.png" width="395" title="ResNet extracted using ImageNet"/>
 </p>
 
 The accuracy curves shown above are respectively for:
 1. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with EMNIST queries.
 2. Logistic regression model trained on MNIST dataset extracted using another Logistic regression model with CIFAR10 queries.
-3. CNN trained on MNIST dataset extracted using another CNN with EMNIST queries.
-4. BERT trained on BBC News dataset extracted using another BERT with AG News queries.
-5. ResNet trained on CIFAR10 dataset extracted using a CNN with ImageNet queries.
+<!--3. CNN trained on MNIST dataset extracted using another CNN with EMNIST queries.-->
+3. BERT trained on BBC News dataset extracted using another BERT with AG News queries.
+4. ResNet trained on CIFAR10 dataset extracted using a CNN with ImageNet queries.
 
+### Distributional Equivalence of Prediction Distributions
 Next we present the kl divergence between the outputs of the extracted models and the target models to compare the distributional equivalence of the models extracted by different algorithms. This is done on a separate subset of the training domain data.
 
-<img src="figures/kl_lr_emnist.png" width="395" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="395" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="395" title="CNN extracted using EMNIST"/>  <img src="figures/kl_bert.png" width="395" title="BERT extracted using AGNEWS"/>
-
 <p align="center">
-<img src="figures/kl_res_cnn.png" width="395" title="ResNet extracted using ImageNet"/>
+<img src="figures/kl_lr_emnist.png" width="395" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="395" title="LR extracted using CIFAR10"/> <img src="figures/kl_bert.png" width="395" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="395" title="ResNet extracted using ImageNet"/>
 </p>
 
+
+### Membership Inference with Extracted Models
 The order of the extraction set ups are same as mentioned for the accuracies.
 The table below shows a portion of the results obtained during our experiments:
 
 <img src="figures/table.png">
 
-## Run Marich
+## How to Run Marich?
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
