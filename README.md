@@ -7,8 +7,12 @@ Marich aims to extract models using public data with two motives:
 To achieve these two Marich uses an active learning algorithm to query and extract the target models $(f_T)$. We assume that only the labels (not the probabilities) are available from the target models. The extracted models $(f_E)$ are trained on the selected $x$'s and $\hat{y}$'s obtained from the target models.
 
 The attack framework is as given below:
-![My Image](figures/attack_framework.pdf)
+![My Image](figures/attack_framework.png)
 
+The accuracies of competing active learning methods are shown along with Marich to present a comparison:
+
+<img src="figures/LR_emnist.png" width="210" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="210" title="LR extracted using CIFAR10"/>
+<img src="figures/cnn_emnist.png" width="210" title="CNN extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="210" title="LR extracted using CIFAR10"/>
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
