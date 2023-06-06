@@ -15,7 +15,7 @@ The attack framework is as given below:
 
 Paper: https://arxiv.org/abs/2302.08466
 
-Talk at PPAI Workshop at AAAI, 2023: [Slides](https://debabrota-basu.github.io/slides/slides_talk_comete_300922.pdf)
+Talk at PPAI Workshop at AAAI, 2023: [Slides](https://debabrota-basu.github.io/slides/marich_ppai23.pdf)
 
 
 ## Summary of Results
