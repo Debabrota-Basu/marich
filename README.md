@@ -1,4 +1,14 @@
-README
+# Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data
+
+Marich aims to extract models using public data with two motives:
+1. Distributional Equivalence and
+2. Query Efficiency
+
+To achieve these two Marich uses an active learning algorithm to query and extract the target models $(f_T)$. We assume that only the labels (not the probabilities) are available from the target models. The extracted models $(f_E)$ are trained on the selected $x$'s and $\hat{y}$'s obtained from the target models.
+
+The attack framework is as given below:
+![My Image](figures/attack_framework.pdf)
+
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
