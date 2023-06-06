@@ -29,6 +29,11 @@ Next we present the kl divergence between the outputs of the extracted models an
 
 <img src="figures/kl_lr_emnist.png" width="195" title="LR extracted using EMNIST"/> <img src="figures/kl_log_cifar.png" width="195" title="LR extracted using CIFAR10"/> <img src="figures/kl_cnn_emnist.png" width="195" title="CNN extracted using EMNIST"/>  <img src="figures/kl_bert.png" width="195" title="BERT extracted using AGNEWS"/> <img src="figures/kl_res_cnn.png" width="195" title="ResNet extracted using ImageNet"/>
 
+The order of the extraction set ups are same as mentioned for the accuracies.
+The table below shows a portion of the results obtained during our experiments:
+
+<img src="figures/table.png">
+
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
 lr_cnn_res_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for experiments on Logistic Regression, CNN and ResNet
