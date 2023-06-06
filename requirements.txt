@@ -1,0 +1,7 @@
+torch
+scipy
+scikit-learn
+pandas
+pickle
+transformers
+# kmeans-pytorch

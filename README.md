@@ -1,10 +1,28 @@
-# Marich
-We present three notebooks for reproduction of the experiments. The three notebooks contain model extraction using MARICH and other algorithms using three datasets, on various kinds of models.
-The data used for training the bert target model is bbc-text.csv.
-ag_unlabeled.csv contains ag_news data but the labels are changed, i.e. the dataset contains $x,f^T(x)$. Getting this $(x,f^T(x))$ pair has been time taking and thus we provide the file assuming that a new $f^T$ will not vary a lot when trained by user.
+README
 
-PS: User may need to change paths to save and load models from in the notebooks according to their structures.
+There are 4 folders:
+bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
+lr_cnn_res_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for experiments on Logistic Regression, CNN and ResNet
+bert_marich: Contains Marich codes for BERT experiments
+lr_cnn_res_marich: Contains Marich codes for experiments on Logistic Regression, CNN and ResNet
 
-The extended paper is available at: https://arxiv.org/abs/2302.08466
+The jupyter notebooks provided in the folders act as demo for the users.
+
+To experiment with new data, one needs to:
+1. In data.py file, add compatible get_DATA function. Follow the structure of the existing get_DATA functions.
+2. In handlers.py file add a compatible Handler class. Follow the structure of the existing Handler classes.
+3. In case of Marich new data input is to be given following the jupyter notebooks.
+
+To experiment with new models, one needs to:
+1. Add the corresponding model to the nets.py file. For the active learning algorithms, other than Marich, one must remember to modify the model to have a forward method returning the output and a preferred embedding, and have a method to return the embedding dimension.
 
 
+For the K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling experiments, we have modified and used the codes from https://arxiv.org/pdf/2111.15258.pdf
+
+
+@article{Huang2021deepal,
+    author    = {Kuan-Hao Huang},
+    title     = {DeepAL: Deep Active Learning in Python},
+    journal   = {arXiv preprint arXiv:2111.15258},
+    year      = {2021},
+}
