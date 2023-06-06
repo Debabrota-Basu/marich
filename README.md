@@ -10,16 +10,8 @@ The attack framework is as given below:
 ![My Image](figures/attack_framework.png)
 
 The accuracies of competing active learning methods are shown along with Marich to present a comparison:
-<img src="figures/LR_emnist.png" width="425" title="Image description"/> <img src="figures/LR_cifar.png" width="425"/>
-
-```{figure} figures/LR_emnist.png
----
-height: 150px
-name: directive-fig
----
-Here is my figure caption!
-```
-
+<img src="figures/LR_emnist.png" width="425" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="425" title="LR extracted using CIFAR10"/>
+<img src="figures/LR_emnist.png" width="425" title="LR extracted using EMNIST"/> <img src="figures/LR_cifar.png" width="425" title="LR extracted using CIFAR10"/>
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
