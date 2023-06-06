@@ -59,13 +59,16 @@ To experiment with new data, one needs to:
 To experiment with new models, one needs to:
 1. Add the corresponding model to the nets.py file. For the active learning algorithms, other than Marich, one must remember to modify the model to have a forward method returning the output and a preferred embedding, and have a method to return the embedding dimension.
 
+For the K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling experiments, we have modified and used the codes from Huang, Kuan-Hao. "Deepal: Deep active learning in python." 2021. (Link: https://arxiv.org/pdf/2111.15258.pdf)
 
-For the K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling experiments, we have modified and used the codes from https://arxiv.org/pdf/2111.15258.pdf
+## Reference
 
-
-@article{Huang2021deepal,
-    author    = {Kuan-Hao Huang},
-    title     = {DeepAL: Deep Active Learning in Python},
-    journal   = {arXiv preprint arXiv:2111.15258},
-    year      = {2021},
+If you use or study any part of this repository, please cite it as:
+```
+@article{karmakar2023marich,
+  title={Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data},
+  author={Karmakar, Pratik and Basu, Debabrota},
+  journal={arXiv preprint arXiv:2302.08466},
+  year={2023}
 }
+```
