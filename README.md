@@ -1,13 +1,22 @@
 # Marich: A Query-efficient Distributionally Equivalent Model Extraction Attack using Public Data
 
-Marich aims to extract models using public data with two motives:
-1. Distributional Equivalence and
-2. Query Efficiency
+Marich aims to extract models using public data with three motives:
+1. Distributional Equivalence of Extracted Prediction Distribution
+2. Max-Information Extraction of the Target Model
+3. Query Efficiency
 
-To achieve these two Marich uses an active learning algorithm to query and extract the target models $(f_T)$. We assume that only the labels (not the probabilities) are available from the target models. The extracted models $(f_E)$ are trained on the selected $x$'s and $\hat{y}$'s obtained from the target models.
+To achieve these goals, Marich uses an active learning algorithm to query and extract the target models $(f_T)$. We assume that only the labels (not the probabilities) are available from the target models. The extracted models $(f_E)$ are trained on the selected $x$'s and $\hat{y}$'s obtained from the target models.
 
 The attack framework is as given below:
+
 ![My Image](figures/attack_framework.png)
+
+## Resources
+
+Paper: https://arxiv.org/abs/2302.08466
+
+Talk at PPAI Workshop at AAAI, 2023: [Slides](https://debabrota-basu.github.io/slides/slides_talk_comete_300922.pdf)
+
 
 ## Summary of Results
 
