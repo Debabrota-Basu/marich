@@ -8,7 +8,7 @@ To achieve these two Marich uses an active learning algorithm to query and extra
 
 The attack framework is as given below:
 ![My Image](figures/attack_framework.png)
-
+## Results
 The accuracies of competing active learning methods are shown along with Marich to present a comparison:
 
 <p align="center">
@@ -33,6 +33,8 @@ The order of the extraction set ups are same as mentioned for the accuracies.
 The table below shows a portion of the results obtained during our experiments:
 
 <img src="figures/table.png">
+
+## Run Marich
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
