@@ -4,7 +4,7 @@ Marich aims to extract models using public data with two different motives:
 1. Distributional Equivalence and
 2. Query Efficiency
 
-To achieve these two Marich uses an active learning algorithm to query the target models. We assume that only the labels (not the probabilities) are available from the target models. The extracted models are trained on the selected x's and $\hat{y}$'s obtained from the target models.
+To achieve these two Marich uses an active learning algorithm to query the target models. We assume that only the labels (not the probabilities) are available from the target models. The extracted models are trained on the selected $x$'s and $\hat{y}$'s obtained from the target models.
 
 There are 4 folders:
 bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
