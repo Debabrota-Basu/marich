@@ -56,13 +56,13 @@ The table below shows a portion of the results obtained during our experiments:
 
 There are 4 folders:
 
-bert_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
+**bert_al**: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for BERT experiments
 
-lr_cnn_res_al: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for experiments on Logistic Regression, CNN and ResNet
+**lr_cnn_res_al**: Contains K-Center, Least Confidence, Margin Sampling, Entropy Sampling and Random Sampling codes for experiments on Logistic Regression, CNN and ResNet
 
-bert_marich: Contains Marich codes for BERT experiments
+**bert_marich**: Contains Marich codes for BERT experiments
 
-lr_cnn_res_marich: Contains Marich codes for experiments on Logistic Regression, CNN and ResNet
+**lr_cnn_res_marich**: Contains Marich codes for experiments on Logistic Regression, CNN and ResNet
 
 The jupyter notebooks provided in the folders act as demo for the users.
 
